@@ -191,3 +191,50 @@
     display: flex;
     gap: 20px;
 }
+
+/* status section */
+.stats-section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.stats-heading {
+    font-size: 2.5rem;
+}
+
+.stats-para {
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.stats-card {
+    background-color: rgb(12, 6, 57);
+    color: white;
+    padding: 40px 30px;
+    border-radius: 12px;
+    min-width: 200px;
+    flex: 1;
+    max-width: 250px;
+}
+
+.stats-card i {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.stats-card h3 {
+    font-size: 2.2rem;
+    margin: 10px 0 5px;
+}
+
+.stats-card p {
+    font-size: 0.95rem;
+    opacity: 0.85;
+}
