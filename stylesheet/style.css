@@ -1,0 +1,193 @@
+*{
+    font-family: "Fredoka", sans-serif;
+    margin: 0;
+}
+/* navigation */
+.nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+.nav ul{
+  display: flex;
+  gap : 20px;
+}
+.nav ul li{
+ list-style: none;
+  
+}
+.nav ul li a{
+ text-decoration: none;
+ color: rgb(77, 73, 73);
+  
+}
+.btn-symbole{
+    background-color: rgba(77, 77, 244, 0.977);
+    color: beige;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: large;
+}
+/* hero section */
+.heroSection{
+   background-image: url("../assets/banner.jpg");
+ 
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+}
+.heroSection div{
+   width: 100%;
+   height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.813),rgba(0, 0, 0, 0.059) );
+   z-index: 2;
+   
+}
+.hero-section-div h1{
+    font-size: 3.5rem;
+    font-weight: lighter;
+}
+ .hero-content{
+ display: flex;
+ flex-direction: column;
+ gap: 200px;
+ align-items: center;
+ justify-content: center;
+}
+ .hero-content div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 9rem !important;
+}
+ .hero-content div p{
+    padding: 20px 300px;
+    font-size:x-large;
+    text-align: center;
+}
+ .hero-content button{
+  margin-bottom: 70px;
+}
+/* main section  */
+.speaker-section-container{
+    width: 80%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.speaker-section h1{
+    text-align: center;
+    padding: 60px;
+}
+.speaker-card{
+     box-shadow: 0px 0px 1px rgb(96, 93, 93);
+    border-radius: 10px;
+    border: 0.2px solid rgb(179, 168, 168);
+}
+.speaker-card img{
+    width: 100%;
+    border-top-left-radius:  10px;
+     border-top-right-radius:  10px;
+}
+.speaker-card h4, p{
+   padding: 5px 20px;
+}
+.speaker-card div{
+   padding: 20px 0px;
+}
+.speaker-card div .first-para{
+   color: blue;
+   font-weight: 600;
+}
+.speaker-card h4{
+   font-size: x-large;
+}
+/* Secure Your Spot section */
+.secure-section{
+   max-width:  75%;
+   margin: 150px auto;
+}
+.secure-section .secure-heading,.secure-para{
+   text-align: center;
+}
+.price-card-conatainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 50px;
+}
+.price-card-div hr{
+   margin: 20px;
+}
+.price-card-div {
+   padding: 20px 20px;
+   border: 0.5px solid rgb(142, 131, 131);
+   border-radius: 10px;
+   height: 350px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
+}
+.price-card-div h3{
+   margin-left: 20px;
+   font-size: xx-large;
+}
+.price-card-div li{
+  padding: 3px 0;
+  font-size: smaller;
+}
+.price-card-div button{
+   margin: 10px;
+   margin-top: 30px ;
+   padding: 10px;
+   text-align: center;
+}
+.price-card-btn{
+   
+}
+.btn-price-symbole{
+    border: 1px solid rgba(77, 77, 244, 0.977);
+    color: rgba(77, 77, 244, 0.977);
+    background-color: rgb(239, 248, 248);
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: large;
+}
+/* footer section */
+.footer{
+   background-color:  rgb(3, 1, 20); ;
+   color: white;
+}
+.footer-containe{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0px auto;
+    padding-top: 30px;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+.social-media-link li, .payment-link li{
+  list-style: none;
+  padding-bottom: 20px;
+}
+.social-media-link li a ,.payment-link li a{
+   text-decoration: none;
+   color: white;
+}
+.payment-link li a{
+    font-size: xx-large;
+}
+.payment-link{
+    display: flex;
+    gap: 20px;
+}
