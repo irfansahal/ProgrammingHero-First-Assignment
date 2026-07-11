@@ -6,12 +6,12 @@
  I want to add that after giving back ChetGpt output , I added some designs and styles, so this CgetGpt given content metchs with other whole contents and sections , So finaly it looks like fits in the color and disign layout  
 
  # Live Url 
- [ Visi The live Page ](  https://github.com/irfansahal/ProgrammingHero-First-Assignment/settings/pages)
+ [ Visit The live Page ](  https://irfansahal.github.io/ProgrammingHero-First-Assignment/)
 
  # My Email : 
  [ irfansahal1998@gmail.com ]( irfansahal1998@gmail.com )
 
- # My Video 
+ # My Concept Explanation Video Link  
  I tried my best to answer from my memories the five questions about 
  1. div and spen 
  2. box model- content , padding , marging , border layers
